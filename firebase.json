@@ -2,17 +2,6 @@
   "hosting": {
     "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "headers": [
-      {
-        "source": "/assets/Build/**",
-        "headers": [
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*" // Allows access from any origin
-          }
-        ]
-      }
-    ],
     "rewrites": [
       {
         "source": "**",
